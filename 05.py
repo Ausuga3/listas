@@ -1,6 +1,7 @@
 print("Bienvenido al Sistema de inventario")
 producto =[]
 cantidad =[]
+
 precio   =[]
 
 i = True
