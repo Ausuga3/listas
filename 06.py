@@ -87,7 +87,7 @@ while opc != 9:
         os.system("clear")
         if producto:
             
-            producto,cantidad,precio = zip(*sorted(zip(producto,cantidad,precio)))
+            producto,cantidad,precio = zip(*sorted(zip[producto,cantidad,precio]))
 
             print("---Lista de productos en orden---")
             for p,c,pr in zip(producto,cantidad,precio):
@@ -97,17 +97,19 @@ while opc != 9:
 
     elif opc ==7:
         os.system("clear")
-        producto.reverse()
-        cantidad.reverse()
-        precio.reverse()
-
+        if producto:
+            producto.reverse()
+            cantidad.reverse()
+            precio.reverse()
+        else:
+            print("---No hay productos para mostrar---")
     elif opc ==8:
         os.system("clear")
         if producto:
             producto.clear()
             cantidad.clear()
             precio.clear()
-            
+
             
 
     elif opc ==9:
