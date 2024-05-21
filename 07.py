@@ -115,3 +115,6 @@ while opc != 9:
     elif opc ==9:
         os.system("clear")
         print("Vuelva pronto!!")
+    else:
+        print("Opcion no valida")
+        break    
