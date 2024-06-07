@@ -36,9 +36,9 @@ lista.extend([7,8,9])
 print(lista)
 
 #9 insertar un elemento
-
+           #(i,v)
 lista.insert(0,2)
-print(lista) 
+print("9 ",lista) 
 
 #10 limpiar la lista
 

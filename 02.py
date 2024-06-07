@@ -12,8 +12,8 @@ print(lista2)
 
 #13 indice de un elemtno
 
-indice =lista2.index(4)
-print("indice de 4 ",indice)
+indice =lista2.index(5)
+print("indice de 5 es ",indice)
 
 #14 ultimo elemento con pop
 
